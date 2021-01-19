@@ -34,7 +34,7 @@ export default function ImagePickerExample() {
     // Image Picking From Device Libary
     setImageResponse(null);
     setObjectCount(null);
-    var ws = new WebSocket('ws://20.80.169.226:12345');
+    var ws = new WebSocket('ws://xx.xx.xxx.xxx:port');
     ImagePicker.launchCamera(
       {
         mediaType: 'photo',
@@ -71,7 +71,7 @@ export default function ImagePickerExample() {
     // Image Picking From Device Camera
     setImageResponse(null);
     setObjectCount(null);
-    var ws = new WebSocket('ws://20.80.169.226:12345');
+    var ws = new WebSocket('ws://xx.xx.xxx.xxx:port');
     ImagePicker.launchImageLibrary(
       {
         mediaType: 'photo',
